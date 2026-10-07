@@ -77,14 +77,13 @@ body{position:relative;isolation:isolate;background:transparent}
     -webkit-mask-image: radial-gradient(ellipse 88% 90% at 56% 48%, #000 65%, transparent 100%) !important;
     mask-image: radial-gradient(ellipse 88% 90% at 56% 48%, #000 65%, transparent 100%) !important;
   }
-  a[href*="wa.me"], a[href*="whatsapp"] {
+  .floating-wa {
     width: 44px !important;
     height: 44px !important;
     min-width: 44px !important;
     min-height: 44px !important;
   }
-  body.about-in-view a[href*="wa.me"],
-  body.about-in-view a[href*="whatsapp"] {
+  body.about-in-view .floating-wa {
     opacity: 0 !important;
     pointer-events: none !important;
   }
